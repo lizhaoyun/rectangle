@@ -1,3 +1,4 @@
+
 module.exports=function(grunt){
     grunt.initConfig({
         htmlhint:{
@@ -26,4 +27,4 @@ module.exports=function(grunt){
 
     grunt.registerTask('default',['htmlhint','csslint','eslint']);
 
-}
+};

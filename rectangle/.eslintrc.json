@@ -17,8 +17,8 @@
             "error",
             4,
             {
-                "SwitchCase": 1,
-                "VariableDeclarator": {"var": 2, "let": 2, "const": 3}
+                "SwitchCase": 2,
+                "VariableDeclarator": {"var": 1, "let": 2, "const": 3}
               }
         ],
         "linebreak-style": [

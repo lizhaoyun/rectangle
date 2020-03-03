@@ -9,9 +9,11 @@
     "grunt-htmlhint": "^0.9.13",
     "grunt": "^1.0.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "keywords": [],
   "author": "",
