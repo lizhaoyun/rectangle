@@ -1,7 +1,12 @@
-div{
+body{
+    height:600px ;
+}
+.content{
     font-size: 1.1em;
-    margin:10% auto;
+    margin:0 auto;
     width: 400px;
+    height:50%;
+    padding-top: 10%;
 }
 .cal{
     margin-left: 60px;
@@ -11,4 +16,9 @@ input,label{
     font-size: 1em;
     margin:5px 2px;
     padding-left: 10px;
+}
+#busuanzi_container_site_uv{
+    position: absolute;
+    bottom: 0;
+    right:0;
 }
