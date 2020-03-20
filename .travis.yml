@@ -9,6 +9,7 @@ after_script:
   - git config user.name "${USER_NAME}"
   - git config user.email "${USER_EMAIL}"
   - cp ../index.html .
+  - cp ../cal.* .
   - cp ../rectangle.* .
   - git add .
   - git commit -m "publish wet site"
