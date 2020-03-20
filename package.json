@@ -7,13 +7,14 @@
     "grunt-contrib-csslint": "^2.0.0",
     "grunt-eslint": "^22.0.0",
     "grunt-htmlhint": "^0.9.13",
-    "grunt": "^1.0.4"
+    "grunt": "^1.0.4",
+    "grunt-mocha": "^0.4.12"
   },
   "devDependencies": {
     "gitbook-cli": "^2.3.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "grunt"
   },
   "keywords": [],
   "author": "",
