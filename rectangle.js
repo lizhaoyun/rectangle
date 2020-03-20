@@ -14,9 +14,9 @@ $(function() {
         var w = $width.val(),
             h = $height.val();
   
-        var r = new Rectangle(w, h);
+        // var r = new Rectangle(w, h);
         
-        $perimeter.val(r.perimeter());
-        $area.val(r.area());
+        $perimeter.val(w * h);
+        $area.val( 2 * (w + h));
     });
 });
